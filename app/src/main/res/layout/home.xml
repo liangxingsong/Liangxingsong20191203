@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/qwe"
+        android:layout_centerInParent="true"
+        android:textSize="100dp"
+        android:text="首页"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:visibility="invisible"
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/oqoq"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/wuwang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/utut"
+            android:textSize="20dp"
+            android:layout_centerInParent="true"
+            android:text="无法连接网络，请检查网络并刷新重试"
+            android:layout_below="@id/oqoq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="#03A9F4"
+            android:layout_marginTop="50dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/utut"
+            android:text="检查网络"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>
